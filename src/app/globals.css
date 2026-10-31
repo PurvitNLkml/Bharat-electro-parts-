@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, serif;
+  --font-mono: var(--font-plex), ui-monospace, monospace;
+  --color-ink: #142033;
+  --color-ink-soft: #4d5c70;
+  --color-paper: #f3eee6;
+  --color-card: #fffdf8;
+  --color-line: #e4d8c8;
+  --color-copper: #b85c38;
+  --color-copper-dark: #8c3f22;
+  --color-teal: #1c6b66;
+  --color-good: #1d7a46;
+  --color-warn: #9a5b09;
+  --color-bad: #9b2c2c;
+}
+
+html {
+  background: var(--color-paper);
+}
+
+body {
+  min-height: 100%;
+  color: var(--color-ink);
+  background:
+    radial-gradient(circle at top left, rgba(184, 92, 56, 0.08), transparent 32%),
+    linear-gradient(180deg, #f7f3ec 0%, #f3eee6 40%, #efe6da 100%);
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-newsreader), serif;
+}
+
+.font-mono {
+  font-family: var(--font-plex), ui-monospace, monospace;
+}
+
+.sheet-host {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--color-line);
+  border-radius: 16px;
+  background: white;
+}
+
+.sheet-host .jexcel_container,
+.sheet-host .jexcel_content {
+  max-width: none;
+}
+
+.sheet-host table.jexcel {
+  font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  .sheet-host table.jexcel > thead > tr > td,
+  .sheet-host table.jexcel > tbody > tr > td {
+    min-width: 108px;
+    padding: 8px;
+  }
+}
+
+input,
+select,
+textarea {
+  accent-color: var(--color-copper);
+}

@@ -1,0 +1,4 @@
+MPN,Manufacturer,Description,Category,Package,Qty,MOQ,GST,Lead time,Date code,City,State,Rate
+STM32F103C8T6,STMicroelectronics,Cortex-M3 MCU,microcontrollers,LQFP-48,120,10,extra,Ready stock,2516,Ahmedabad,Gujarat,180
+,Yageo,Missing MPN,passives,0402,10,1,extra,Ready stock,2516,Ahmedabad,Gujarat,1
+RC0402FR-0710KL,Yageo,10k resistor,passives,0402,1000,100,inclusive,Ready stock,2516,Ahmedabad,Gujarat,0.2

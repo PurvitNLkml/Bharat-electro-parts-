@@ -1,0 +1,3 @@
+MPN,Manufacturer,Description,Qty,Refdes,Package
+STM32F103C8T6,STMicroelectronics,MCU,2,U1,LQFP-48
+CUSTOM-CONN-9PIN,Local fab,Connector,1,J1,
